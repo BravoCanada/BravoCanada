@@ -1,0 +1,541 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:13px;
+}
+body,html{
+	overflow-x:hidden
+}
+
+.r{
+	border:1px solid red
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat';
+}
+
+/*HEADER AREA CSS STARTS*/
+header[role="mast-head"] section[role="td-header-menu-wrap"]{
+	background:#f3f3f3
+}
+header[role="mast-head"] section[role="td-header-menu-wrap"] .navbar-collapse >ul{
+	padding:0px;
+	margin:0px;
+	letter-spacing:1px;
+	font-weight:600
+}
+header[role="mast-head"] section[role="td-header-menu-wrap"] .navbar-collapse >ul >li>a{
+	line-height: 45px;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+	color: #000;
+	padding: 0 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+header[role="mast-head"] section[role="td-header-menu-wrap"] .navbar-collapse >ul >li>a:hover{
+	line-height: 45px;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+	color: #000;
+	padding: 0 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration:none;
+}
+
+header[role="mast-head"] section[role="td-header-menu-wrap"] .top-right-holder .new_search{
+    height: auto;
+    padding: 0px;
+    transform: skew(-22deg);
+    overflow: hidden;
+    border-right: 6px solid #1f64ac;
+    width: 50%;
+    position: relative;
+    z-index: 99;
+	height:100%;
+	background-color: #dfdfdf !important;
+}
+header[role="mast-head"] section[role="td-header-menu-wrap"] .top-right-holder .new_search input{
+    transform: skew(22deg);
+    height: 100% !important;
+    background-size: 18px;
+    background-position: right 10px center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    font-size: 10px;
+	background:none;
+	border:none;
+}
+header[role="mast-head"] section[role="td-header-menu-wrap"] .top-right-holder .socail-icons {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    background: #e72830;
+    margin-left: -10px;
+    padding-left: 20px;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+header[role="mast-head"] section[role="td-header-menu-wrap"] .top-right-holder .socail-icons > a {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    text-align: center;
+    align-self: center;
+    color: #fff;
+}
+header[role="mast-head"] section[role="td-header-menu-wrap"] .top-right-holder .socail-icons::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #e72830;
+    right: -100%;
+    top: 0px;
+}
+/*BANNER AREA CSS STARTS*/
+section[role="banner-area"]{
+	position:relative;
+	background-image: url("http://motors.stylemixthemes.com/classified/wp-content/uploads/sites/2/2016/02/listing_bnr.jpg");
+	background-position: 50% 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	z-index:1;
+	padding:100px 0
+}
+section[role="banner-area"] object{
+	position:absolute;
+	left:-30px;
+	top: 30px;
+}
+section[role="banner-area"]:after{
+	position: absolute;
+	content: '';
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index:-1;
+	background: rgba(0,0,0,.5);
+}
+section[role="banner-area"] h1{
+	font-weight:900;
+	margin-bottom: 5px;
+	font-size: 70px;
+	line-height: 50px;
+	letter-spacing: -3px;
+}
+
+/*BANNER-TAB-AREA CSS STARTS*/
+main[role="main-wrapper"] section[role="banner-tab-area"]{
+	margin-top: -60px;
+	position: relative;
+	z-index: 9;
+}
+main[role="main-wrapper"] section[role="banner-tab-area"] .nav li>a{
+	position: relative;
+	display: block;
+	padding: 15px 43px 12px 35px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+	text-decoration: none;
+	letter-spacing: -.4px;
+	z-index: 2;
+	background: #11323e;
+	border-right: 1px solid #133340;
+	border-radius:0
+}
+main[role="main-wrapper"] section[role="banner-tab-area"] .tab-pane{
+	padding: 42px;
+	background-color: #153e4d;
+}
+main[role="main-wrapper"] section[role="banner-tab-area"] .tab-pane select,
+main[role="main-wrapper"] section[role="banner-tab-area"] .tab-pane input[type="text"]{
+	background-color: #ECEFF3;
+	height: 50px;
+	border: none;
+	width: 100%;
+	padding: 10px;
+	border-radius:0
+}
+main[role="main-wrapper"] section[role="banner-tab-area"] .tab-pane .btn{
+	width:100%;
+	height:100%;
+}
+
+/*BROWSW TYPE AREA CSS STARTS*/
+main[role="main-wrapper"] [role="browse-area"]{
+	margin-top: 76px;
+	margin-bottom: 15px;
+}
+main[role="main-wrapper"] [role="browse-area"] h3,
+main[role="main-wrapper"] [heading]{
+	margin-bottom: 25px;
+	line-height: 1.2;
+	font-size: 26px;
+	font-weight: 700;
+}
+main[role="main-wrapper"] [heading]{
+	margin-bottom:0
+}
+main[role="main-wrapper"] [role="browse-area"] h3 span,
+main[role="main-wrapper"] [heading] span{
+	color:#e72830
+}
+main[role="main-wrapper"] [role="browse-area"] .inner{
+	margin-bottom: 44px
+}
+main[role="main-wrapper"] [role="browse-area"] .inner .image{
+	padding: 0 10px;
+	opacity: .9;
+	min-height: 62px;
+	line-height: 62px;
+}
+main[role="main-wrapper"] [role="browse-area"] .inner .name{
+	margin-top: 5px;
+	font-size: 13px;
+	color: #777;
+	text-decoration: underline;
+}
+
+/*STM_LISTING_TABS_HOLDER AREA CSS STARTS*/
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder{
+	padding-top: 30px;
+	border-top: 4px solid #153e4d;
+	margin-bottom: 40px;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .nav{
+	text-align:right;
+	margin-bottom:30px;
+	justify-content: end;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .nav li{
+	margin-left:30px
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .nav li>a{
+    position: relative;
+    padding: 14px 24px;
+    color: #153e4d;
+	border-bottom: 1px dashed #153e4d;
+	letter-spacing: -.5px;
+	border-radius:0px;
+    text-decoration: none !important;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing{
+	margin-bottom:40px;
+	display:block
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .image{
+	height:160px;
+	width:100%
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .image img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .discounted-price{
+	padding: 1px 10px 2px 4px;
+	position: relative;
+	text-align: right;
+	background-color: #e72830
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .discounted-price .regular-price {
+    font-size: 13px;
+    line-height: normal;
+	color:#000;
+    text-decoration: line-through;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .discounted-price .sale-price {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .discounted-price::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left:-5px;
+    height: 100%;
+    width: 18px;
+    background-color: #e72830;
+    -webkit-transform: skew(-14deg,0deg);
+            transform: skew(-14deg,0deg);
+    z-index: 5;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .car-title{
+	color: #232628;
+	overflow: hidden;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 700;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing-car-item-meta{
+	padding-bottom: 17px;
+	border-bottom: 1px solid #ccc;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .car-meta-bottom ul{
+	padding:0
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .car-meta-bottom ul li {
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-right: 14px;
+    color: #888;
+    vertical-align: middle;
+}
+main[role="main-wrapper"] [role="stm_listing_tabs"] .stm_listing_tabs_holder .tab-content .listing .car-meta-bottom ul li span{
+	position: relative;
+	top: 1px;
+	vertical-align: top;
+	margin-left: 2px;
+	font-size: 13px;
+}
+
+/*NUMBER_WRAPPER AREA CSS STARTS*/
+main[role="main-wrapper"] [role="number_wrapper"]{
+	background: #999999;
+	padding: 120px 0;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+main[role="main-wrapper"] [role="number_wrapper"] .media span img{
+	width:50px;
+}
+main[role="main-wrapper"] [role="number_wrapper"] .media .media-body h2{
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom:0px;
+}
+main[role="main-wrapper"] [role="number_wrapper"] .media .media-body p{
+	margin:0
+}
+
+/*ADVANCE SEARCH AREA CSS STARTS*/
+main[role="main-wrapper"] [role="advance_search"]{
+	padding:70px 0
+}
+main[role="main-wrapper"] [role="advance_search"] .cutom-select-area{
+	margin:0 -5px
+}
+main[role="main-wrapper"] [role="advance_search"] .cutom-select-area [class*="col"] {
+	padding:0 5px;
+}
+main[role="main-wrapper"] [role="advance_search"] .cutom-select-area [class*="col"] select {
+    border: 1px solid #ececec;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    color: #909090;
+    border-radius: 4px;
+    background: #fff url(http://staging.autoproyecto.com/wp-content/plugins/research-plugin/img/arrows.png) no-repeat right 0.75rem center;
+    background-size: auto auto;
+    background-size: auto auto;
+    background-size: 15px;
+    margin: 0px;
+    padding: 14px;
+    padding-left: 14px;
+    padding-left: 25px;
+	width:100%;
+    height: auto !important;
+}
+main[role="main-wrapper"] [role="advance_search"] .cutom-select-area [class*="col"] span {
+	position: absolute;
+	left: 18px;
+	line-height: 50px;
+	font-weight: bold;
+}
+main[role="main-wrapper"] [role="advance_search"] .car_detalis [class*="col"]{
+	-ms-flex: 0 0 20%;
+	    flex: 0 0 20%;
+	   max-width: 20%;
+	   text-align:center;
+	   margin-bottom:40px;
+}
+main[role="main-wrapper"] [role="advance_search"] .car_detalis [class*="col"] span{
+	display:block;
+	margin-top:10px;
+	color:#979797;
+	font-weight:600
+}
+
+/*blog post*/
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder{
+    height: 500px;
+    position: relative;
+}
+main[role="main-wrapper"] [role="blog_post"] .row{
+	margin:0 -3px;
+}
+main[role="main-wrapper"] [role="blog_post"] .row .col-md-12 {
+    margin-bottom: 5px;
+}
+main[role="main-wrapper"] [role="blog_post"] .row > [class*="col"] {
+    padding: 0 3px;
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder.auto{
+    height: 100%;
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder .pic-holder-txt{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder .pic-holder-txt span{
+    background: #1e201f;
+    color: #fff;
+    padding: 0px 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    line-height: 23px;
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder .pic-holder-txt h6{
+    color: #fff;
+    margin: 10px 0;
+    font-weight: 700;
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder .pic-holder-txt p{
+	margin:0
+}
+main[role="main-wrapper"] [role="blog_post"]  .pic-holder::after {
+    background: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    content: "";
+}
+
+/*FOOTER AREA CSS STARTS*/
+footer[role="footer-area"]{
+	background-image: url(http://staging.autoproyecto.com//wp-content/themes/Newspaper/images/footer-bg.jpg) !important;
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding:60px 0;
+	position:relative;
+	z-index:1
+}
+footer[role="footer-area"]:before{
+	opacity: 0.1;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:#000
+}
+footer[role="footer-area"] h1{
+	position: relative;
+	z-index: 99;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+	margin-bottom: 40px;
+}
+footer[role="footer-area"] ul.menu{
+	margin:0px;
+}
+footer[role="footer-area"] ul.menu li {
+    list-style: none;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+footer[role="footer-area"] ul.menu li >a{
+	color:#fff
+}
+
+section[role="btm-footer"]{
+	background-color:#1568bd;
+}
+
+section[role="btm-footer"] .btm-footer-nav ul li{
+	list-style:none;
+	float:left;
+	
+}
+
+section[role="btm-footer"] .btm-footer-nav li{
+    padding: 0px 14px;
+}
+
+section[role="btm-footer"] .btm-footer-nav{
+    margin-left:-69px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section[role="btm-footer"] .btm-footer-nav ul li a{
+	color: #dbe6f1;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+section[role="btm-footer"] .btm-footer-nav ul li a:hover{
+	color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+	text-decoration:none;
+}
+
+section[role="copy-rights-btm-footer"]{
+	background-color:#f1ecec;
+}
+
+section[role="copy-rights-btm-footer"] p{
+    color: gray;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/*lOGIN PAGE CSS STARTS HERE*/
+
+main[role="main-wrapper"] section [role="banner-tab-area"] .btn-danger{
+	border: 2px solid #e72830;
+	background-color:#e72830;
+}	
+
+.carauction-form{
+   padding-top: 95px;
+}
+
+ .login-area h3{
+	font-weight: 600;
+    font-size: 42px;
+    line-height: 0.4;
+    color: #e72830;
+}
+
+
+
+
+

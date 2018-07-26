@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2018, 10:24:09 PM
+    Author     : LeAmino
+*/
+#websites-switch{
+        display: table-cell;
+        visibility: hidden;
+    vertical-align: middle;
+  text-align: right;
+    width: 60%;
+    label{
+        margin-bottom: 0;
+    }
+}
+.m-stack.m-stack--general.m-stack--ver > .m-stack__item.m-stack__item--center{
+    img{
+        width: 100%;
+    }
+}
+.animate{
+           -webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+}
+.vertical-align{
+    display: table;
+    height: 100%; 
+    table-layout: fixed;
+    .to-align{
+        display: table-cell;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+.sites-item{
+    padding:15px;
+    border:1px solid #cccccc;
+    border-radius:3px;
+    margin-bottom:20px;
+    .site-logo{
+        max-width: 150px;
+    }
+    a{
+     
+    display: block;
+        img{
+           .animate;
+        }
+        &:hover{
+            img{
+                opacity: 0.5;
+            }
+        }
+    }
+}
+#reviews-table {
+    tr{
+            padding-top: 10px;
+          border-bottom:1px solid gray;
+          display: block;
+          &:last-child{
+              border-bottom: 0;
+          }
+    }
+    .review-item{
+       
+       
+        padding:5px 0;
+          .review-avatar{
+              img{
+                  width: 100%;
+              }
+            width:10%;
+         
+            display: inline-block;
+/*            border-right: 1px solid gray;*/
+            padding-right: 5px;
+        }
+           blockquote{
+/* width: 84%;*/
+    vertical-align: top;
+/*    margin-left: 5%;*/
+       display: inline-block;
+        position: relative;
+        .review-source{
+            img{
+            max-width: 150px;
+            }
+        }
+        .review-body{
+                 position: relative;
+            p{
+            color:black;
+        }  
+          i{
+          position:absolute;
+          &.fa-quote-left{
+              left:-25px;
+          }
+            &.fa-quote-right{
+          right: -25px;
+    bottom: 0;
+          }
+    }
+        }
+       
+    }
+    }
+ 
+   
+
+}
